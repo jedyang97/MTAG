@@ -5,9 +5,9 @@ MTAG (Modal-Temporal Attention Graph) is a GNN-based machine learning framework 
 Our code is written as an extension to the awesome [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) library. Users are encouraged to read their [installation guide](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) and documentations to understand the basics.
 
 Our main contributions include:
- - A [graph builder]() to construct graphs with modal and temporal edges.
- - A new GNN convolution operation called [MTGATConv]() that uses distinct attentions for edges with distinct modality and temporal ordering. It also transforms each node based on its modality type. It is like a combination of [RGCNConv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.RGCNConv) and [GATConv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATConv) with an efficient implementation. We hope this operation can be inlcuded into [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) as a standard operation.
- - A [TopK pooling]() operation to prune edges with low attention weights.
+ - A [graph builder](https://github.com/jedyang97/MTAG/blob/main/graph_model/graph_builder.py) to construct graphs with modal and temporal edges.
+ - A new GNN convolution operation called [MTGATConv](https://github.com/jedyang97/MTAG/blob/main/graph_model/mtgat_conv.py) that uses distinct attentions for edges with distinct modality and temporal ordering. It also transforms each node based on its modality type. It is like a combination of [RGCNConv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.RGCNConv) and [GATConv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATConv) with an efficient implementation. We hope this operation can be inlcuded into [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) as a standard operation.
+ - A [TopK pooling](https://github.com/jedyang97/MTAG/blob/main/graph_model/pooling.py) operation to prune edges with low attention weights.
 ## Installation
 
 Please refer to the `requirement.txt` for setup.
@@ -37,7 +37,7 @@ jupyter notebook construct_edge_type_dict
 ## Citation
 
 ```
-@article{Yang2020MTGATMT,
+@article{Yang2020MTAG,
   title={MTGAT: Multimodal Temporal Graph Attention Networks for Unaligned Human Multimodal Language Sequences},
   author={Jianing Yang and Yongxin Wang and Ruitao Yi and Yuying Zhu and Azaan Rehman and Amir Zadeh and Soujanya Poria and Louis-Philippe Morency},
   journal={ArXiv},
