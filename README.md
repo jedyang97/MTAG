@@ -13,11 +13,11 @@ Our main contributions include:
 Please refer to the `requirement.txt` for setup.
 
 ## Dataset Preperation
-Download the following datasets:
-```
-MOSI Unaligned Sequence: http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/cmu-mosei/seq_length_50/mosei_senti_data_noalign.pkl
-IEMOCAP Unaligned Sequence: http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/iemocap/seq_length_50/iemocap_data_noalign.pkl 
-```
+Download the following datasets (please copy and paste the URL to browswer, as clicking the link might not work):
+
+- MOSI Unaligned Sequence: http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/cmu-mosei/seq_length_50/mosei_senti_data_noalign.pkl
+- IEMOCAP Unaligned Sequence: http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/iemocap/seq_length_50/iemocap_data_noalign.pkl 
+
 and put them into a desired folder (.e.g. ```<dataroot>```). Then specify in ```run.sh``` the folder containing the data of the desired dataset. For example:
 
 
