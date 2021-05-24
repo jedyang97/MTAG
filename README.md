@@ -42,11 +42,23 @@ jupyter notebook construct_edge_type_dict
 ## Citation
 
 ```
-@article{Yang2020MTAG,
-  title={MTGAT: Multimodal Temporal Graph Attention Networks for Unaligned Human Multimodal Language Sequences},
-  author={Jianing Yang and Yongxin Wang and Ruitao Yi and Yuying Zhu and Azaan Rehman and Amir Zadeh and Soujanya Poria and Louis-Philippe Morency},
-  journal={ArXiv},
-  year={2020},
-  volume={abs/2010.11985}
+@inproceedings{yang-etal-2021-mtag,
+    title = "{MTAG}: Modal-Temporal Attention Graph for Unaligned Human Multimodal Language Sequences",
+    author = "Yang, Jianing  and
+      Wang, Yongxin  and
+      Yi, Ruitao  and
+      Zhu, Yuying  and
+      Rehman, Azaan  and
+      Zadeh, Amir  and
+      Poria, Soujanya  and
+      Morency, Louis-Philippe",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-main.79",
+    pages = "1009--1021",
+    abstract = "Human communication is multimodal in nature; it is through multiple modalities such as language, voice, and facial expressions, that opinions and emotions are expressed. Data in this domain exhibits complex multi-relational and temporal interactions. Learning from this data is a fundamentally challenging research problem. In this paper, we propose Modal-Temporal Attention Graph (MTAG). MTAG is an interpretable graph-based neural model that provides a suitable framework for analyzing multimodal sequential data. We first introduce a procedure to convert unaligned multimodal sequence data into a graph with heterogeneous nodes and edges that captures the rich interactions across modalities and through time. Then, a novel graph fusion operation, called MTAG fusion, along with a dynamic pruning and read-out technique, is designed to efficiently process this modal-temporal graph and capture various interactions. By learning to focus only on the important interactions within the graph, MTAG achieves state-of-the-art performance on multimodal sentiment analysis and emotion recognition benchmarks, while utilizing significantly fewer model parameters.",
 }
 ```
