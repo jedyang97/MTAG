@@ -1,5 +1,10 @@
 ![](overview.png)
 
+**Paper: https://aclanthology.org/2021.naacl-main.79**
+
+**Talk: https://www.youtube.com/watch?v=b0UogJP4U5I**
+
+
 MTAG (Modal-Temporal Attention Graph) is a GNN-based machine learning framework that can learn fusion and alignment for unaligned multimodal sequences.
 
 Our code is written as an extension to the awesome [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) library. Users are encouraged to read their [installation guide](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) and documentations to understand the basics.
