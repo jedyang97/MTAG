@@ -39,6 +39,10 @@ To visualize the edges:
 jupyter notebook construct_edge_type_dict
 ```
 
+## Hyperparameters
+
+A more comprehensive hyperparameter list (along with each setting's performance we obtained) can be found in this [Google Sheet](https://docs.google.com/spreadsheets/d/1Jbp7VOKnMkRJBAGi2gomK5AFPGZQLGUezFqAPWJWk80/edit?usp=sharing). For any parameters that are not specified here, we used the default values in `main.py`.
+
 ## Citation
 
 ```
