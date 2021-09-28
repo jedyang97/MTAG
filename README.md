@@ -41,7 +41,7 @@ bash run.sh
 
 To visualize the edges:
 ```
-jupyter notebook construct_edge_type_dict
+jupyter notebook network_inference_visualize.ipynb
 ```
 
 ## Hyperparameters
