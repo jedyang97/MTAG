@@ -20,11 +20,10 @@ Please refer to the `requirement.txt` for setup.
 ## Dataset Preperation
 Download the following datasets (please copy and paste the URL to browser, as clicking the link might not work):
 
-- CMU-MOSI Unaligned Sequence: https://www.dropbox.com/s/5q2ionep7itlgnd/mosi_data_noalign.pkl?dl=0
-- IEMOCAP Unaligned Sequence: https://www.dropbox.com/s/4btr0vjp0jrphqs/iemocap_data_noalign.pkl?dl=0
+- CMU-MOSI Unaligned Sequence: https://www.dropbox.com/s/byb2togk2oj2shy/mosi_data_noalign.pkl?dl=0
+- IEMOCAP Unaligned Sequence: https://www.dropbox.com/s/cgbb3hh9bn7a6gb/iemocap_data_noalign.pkl?dl=0
 - Other datasets in the same format: https://www.dropbox.com/sh/kv6fqk3es7xno7c/AAA2G0V-wu7cOZoqLU3JEml8a?dl=0, which includes:
   - CMU-MOSI (aligned and unaligned)
-  - CMU-MOSEI (aligned and unaligned)
   - IEMOCAP (aligned and unaligned)
 
 and put them into a desired folder (.e.g. ```<dataroot>```). Then specify in ```run.sh``` the folder containing the data of the desired dataset. For example:
