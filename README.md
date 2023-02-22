@@ -25,6 +25,7 @@ Download the following datasets (please copy and paste the URL to browser, as cl
 - Other datasets in the same format: https://www.dropbox.com/sh/kv6fqk3es7xno7c/AAA2G0V-wu7cOZoqLU3JEml8a?dl=0, which includes:
   - CMU-MOSI (aligned and unaligned)
   - IEMOCAP (aligned and unaligned)
+  - CMU-MOSEI (aligned and unaligned)
 
 and put them into a desired folder (.e.g. ```<dataroot>```). Then specify in ```run.sh``` the folder containing the data of the desired dataset. For example:
 
